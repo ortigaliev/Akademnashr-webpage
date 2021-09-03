@@ -76,7 +76,7 @@ main{
 .feature-subheader{
   font-weight: bold;
   font-size: 24px;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.5px;
   color: #000000;
 }
@@ -85,7 +85,30 @@ main{
   width: 340px;
   font-weight: normal;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.5px;
   color: #000000;
+}
+
+.sale-bg{
+
+}
+
+.sale-header{
+  width: 375px;
+  height: 100px;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+}
+
+.sale-text{
+  width: 440px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
 }
