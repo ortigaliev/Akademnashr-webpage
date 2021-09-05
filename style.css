@@ -1,3 +1,19 @@
+body{
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Robote", "Arial", sans-serif;
+  letter-spacing: 0,5px;
+}
+h2{
+  font-family: "Roboto Condensed", "Arial", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+
+}
+p{
+  font-size: "Roboto", "Arial", sans-serif;
+
+}
 .site-header{
   background-color: white;
 }
@@ -10,12 +26,13 @@ main{
   background-color: #252420;
 }
 
-.sitenav-link{
-  font-weight: 500;
-  font-size: 13px;
-  line-height: 15px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
+nav>ul{
+  list-style: none;
+  text-decoration: none;
+
+}
+
+.site-header-link{
   text-decoration: none;
   color: #000;
 }
@@ -23,21 +40,18 @@ main{
 .hero-heading{
   font-size: 40px;
   line-height: 1.2;
-  letter-spacing: 0.5px;
   color: #FFFFFF;
+  font-family: "Roboto Condensed", "Arial", sans-serif;
 
 }
 
 .hero-text{
   font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.5px;
   color: #FFFFFF;
 }
 
 .main-link{
   font-size: 13px;
-  line-height: 15px;
   background-color: #FF7500;
   letter-spacing: 0.5px;
   columns: #fff;
@@ -67,9 +81,9 @@ main{
 .feature-header{
   width: 440px;
   font-weight: bold;
+  font-family: "Roboto Condensed", "Arial", serif;
   font-size: 72px;
   line-height: 1.2;
-  letter-spacing: 0.5px;
   color: #000000;
 }
 
@@ -77,7 +91,6 @@ main{
   font-weight: bold;
   font-size: 24px;
   line-height: 1.2;
-  letter-spacing: 0.5px;
   color: #000000;
 }
 
@@ -86,8 +99,23 @@ main{
   font-weight: normal;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.5px;
+
   color: #000000;
+}
+
+.feature-list{
+  list-style: none;
+}
+
+.feature-img-box{
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255, 117, 0, 0.2);
+}
+
+.feature-icon{
+  width: 56px;
+  height: 56px;
 }
 
 .sale-bg{
@@ -97,10 +125,10 @@ main{
 .sale-header{
   width: 375px;
   height: 100px;
+  font-family: "Roboto Condensed", "Arial" sans-serif;
   font-weight: bold;
   font-size: 40px;
   line-height: 1.2;
-  letter-spacing: 0.5px;
   color: #FFFFFF;
 }
 
@@ -108,7 +136,34 @@ main{
   width: 440px;
   height: 50px;
   font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.5px;
+  line-height: 1.5;
   color: #FFFFFF;
+}
+.sale-text-highlite{
+  color: #ff7500;
+}
+
+footer>ul{
+  list-style: none;
+}
+
+.padval{
+  color: #252420;
+}
+
+.site-footer-link{
+  width: 224px;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.site-footer-link li{
+  list-style: none;
+}
+
+.site-footer-link a{
+  color: #252420;
+  text-decoration: none;
+
+
 }
