@@ -14,11 +14,23 @@ p{
   font-size: "Roboto", "Arial", sans-serif;
 
 }
+/* SITE-HEADER */
 .site-header{
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: white;
+}
+
+.logo-link{
+  transition: opacity 0.4s ease;
+}
+
+.logo-link:hover{
+opacity: 0.8;
+}
+.logo-link:active{
+opacity: 0.6;
 }
 
 .site-list-action{
@@ -190,7 +202,7 @@ footer>ul{
 
 .site-footer-bottom{
   display: flex;
-justify-content: space-between;
+  justify-content: space-between;
 }
 
 .site-footer-link{
