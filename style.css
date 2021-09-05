@@ -15,7 +15,15 @@ p{
 
 }
 .site-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: white;
+}
+
+.site-list-action{
+  display: flex;
+  align-items: center;
 }
 
 main{
@@ -35,6 +43,10 @@ nav>ul{
 .site-header-link{
   text-decoration: none;
   color: #000;
+}
+
+.site-nav-list{
+  display: flex;
 }
 
 .hero-heading{
@@ -59,6 +71,9 @@ nav>ul{
 }
 
 .hero{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: #252420;
   color: #fff;
 }
@@ -104,6 +119,8 @@ nav>ul{
 }
 
 .feature-list{
+  display: flex;
+  justify-content: space-between;
   list-style: none;
 }
 
@@ -118,8 +135,10 @@ nav>ul{
   height: 56px;
 }
 
-.sale-bg{
-
+.sale{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .sale-header{
@@ -143,12 +162,35 @@ nav>ul{
   color: #ff7500;
 }
 
+/* SITE FOOTER */
+.site-footer-social{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-social{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
 footer>ul{
   list-style: none;
 }
 
-.padval{
+.site-footer-bottom{
   color: #252420;
+}
+.devider{
+  width: 1100px;
+  height: 2px;
+  color: rgba(37, 36, 32, 0.5);
+}
+
+.site-footer-bottom{
+  display: flex;
+justify-content: space-between;
 }
 
 .site-footer-link{
@@ -164,6 +206,4 @@ footer>ul{
 .site-footer-link a{
   color: #252420;
   text-decoration: none;
-
-
 }
