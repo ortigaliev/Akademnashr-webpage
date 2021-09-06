@@ -1,8 +1,23 @@
-fbody{
+*{
+  box-sizing: border-box;
+}
+
+body{
   font-size: 16px;
+  padding: 0;
+  margin: 0;
   line-height: 1.5;
   font-family: "Robote", "Arial", sans-serif;
   letter-spacing: 0,5px;
+}
+
+.container{
+  width: 100%;
+  max-width: 1140px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 *:focus{
@@ -21,13 +36,17 @@ p{
 }
 /* SITE-HEADER */
 .site-header{
-  display: flex;
-  justify-content: space-between;
   border-top: 5px solid #ff7500;
   padding-top: 16px;
   padding-bottom: 16px;
   align-items: center;
   background-color: white;
+}
+
+.site-header-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo-link{
@@ -130,6 +149,12 @@ nav>ul{
 
 }
 
+.hero-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .hero-text{
   font-size: 16px;
   color: #FFFFFF;
@@ -163,6 +188,7 @@ nav>ul{
 .hero-img{
   width: 510px;
   height: 510px;
+  box-shadow: 24px 24px 0px rgba(255, 117, 0, 0.6);
   border-radius: 8px;
 }
 
@@ -228,14 +254,20 @@ nav>ul{
 }
 
 .sale{
+  padding-top: 120px;
+  padding-bottom: 160px;
+}
+
+.sale-inner{
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   background-color: #252420;
   border-radius: 12px;
 }
 
 .sale-content{
+  padding: 64px;
   margin-top: 64px;
   margin-bottom: 64px;
 }
