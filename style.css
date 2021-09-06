@@ -300,6 +300,11 @@ footer{
 
 .footer-social a{
   color: #252420;
+  display: block;
+}
+
+.footer-social svg{
+  display: block;
 }
 
 .footer-social a:hover{
