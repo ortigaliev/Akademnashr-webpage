@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Akademnashr</title>
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,10 +21,10 @@
     <div class="site-list-action">
       <nav>
         <ul class="site-nav-list">
-          <li><a class="site-header-link" href="index.html">Bosh sahifa</a></li>
-          <li><a class="site-header-link" href="#">Kitoblar</a></li>
-          <li><a class="site-header-link" href="#">Aksiyalar</a></li>
-          <li><a class="site-header-link" href="#">Kontaktlar</a></li>
+          <li class="sitenav-item"><a class="site-header-link" href="index.html">Bosh sahifa</a></li>
+          <li class="sitenav-item"><a class="site-header-link" href="#">Kitoblar</a></li>
+          <li class="sitenav-item"><a class="site-header-link" href="#">Aksiyalar</a></li>
+          <li class="sitenav-item"><a class="site-header-link" href="#">Kontaktlar</a></li>
         </ul>
       </nav>
 
@@ -54,19 +55,19 @@
       <hr class="orange-line">
       <h2 class="feature-header" >Nega aynan Akademnashr?</h2>
       <ul class="feature-list">
-        <li>
+        <li class="feature">
           <div class="feature-img-box"><img class="feature-icon" src="img/icon-cursor-click.svg" alt="" width="56" height="56"></div>
           <h3 class="feature-subheader" >Oson buyurtma qilish</h3>
           <p class="feature-text" >Akademnashr.uz saytidan o’zingizga yoqqan kitobni sodda usulda buyurtma qila olasiz.</p>
         </li>
 
-        <li>
+        <li class="feature">
           <div class="feature-img-box"><img class="feature-icon" src="img/icon-sparkles.svg" alt="" width="56" height="56"></div>
           <h3 class="feature-subheader" >Eng sara kitoblar</h3>
           <p class="feature-text" >Trenddagi eng ommabop, turli auditoriyalarga mo’ljallangan har xil janrdagi kitoblarni topa olasiz.</p>
         </li>
 
-        <li>
+        <li class="feature">
           <div class="feature-img-box"><img class="feature-icon" src="img/icon-lightning-bolt.svg" alt="" width="56" height="56"></div>
           <h3 class="feature-subheader" >Tez yetkazib berish</h3>
           <p class="feature-text" >O’zbekistonning ixtiyoriy hududiga 3 ish kuni ichida, xalqaro buyurtmalarni 10 ish kuni ichida yetkazib beriladi.</p>
@@ -80,8 +81,10 @@
     <section class="sale">
       <div class="sale-content">
         <h2 class="sale-header">Bolalar kitoblari uchun ajoyib aksiya!</h2>
-        <p class="sale-text">Ertak"lar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq qo’llanmalari va komikslar.</p>
-        <p class="sale-text">Aksiyadagi eng katta to’plamda <strong class="sale-text-highlite">50 ta kitob</strong>ni <strong class="sale-text-highlite">350 ming</strong> so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.</p>
+        <div class="sale-info-wrapper">
+          <p class="sale-text">Ertak"lar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq qo’llanmalari va komikslar.</p>
+          <p class="sale-text">Aksiyadagi eng katta to’plamda <strong class="sale-text-highlite">50 ta kitob</strong>ni <strong class="sale-text-highlite">350 ming</strong> so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.</p>
+        </div>
         <a class="main-link" href="#">Buyurtma berish</a>
       </div>
 
