@@ -34,6 +34,10 @@ p{
   transition: opacity 0.4s ease;
 }
 
+.logo-link img{
+  display: block;
+}
+
 .logo-link:hover{
   opacity: 0.8;
 }
@@ -201,7 +205,7 @@ nav>ul{
   list-style: none;
 }
 .feature{
-margin-right: 40px;
+  margin-right: 40px;
 }
 
 .feature:last-child{
