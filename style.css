@@ -91,9 +91,6 @@ nav>ul{
   margin-right: 32px;
 }
 
-.sitenav-item:last-child{
-  margin-right: 0;
-}
 
 .site-header-link{
   font-size: 13px;
