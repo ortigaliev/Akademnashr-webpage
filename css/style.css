@@ -5,7 +5,7 @@
   font-weight: 400;
   font-display: swap;
   src: url('../fonts/roboto-v29-latin-regular.woff2') format('woff2'),
-       url('../fonts/roboto-v29-latin-regular.woff') format('woff');
+  url('../fonts/roboto-v29-latin-regular.woff') format('woff');
 }
 /* roboto-500 - latin */
 @font-face {
@@ -14,7 +14,7 @@
   font-weight: 500;
   font-display: swap;
   src: url('../fonts/roboto-v29-latin-500.woff2') format('woff2'),
-       url('../fonts/roboto-v29-latin-500.woff') format('woff');
+  url('../fonts/roboto-v29-latin-500.woff') format('woff');
 }
 /* roboto-700 - latin */
 @font-face {
@@ -23,7 +23,7 @@
   font-weight: 700;
   font-display: swap;
   src: url('../fonts/roboto-v29-latin-700.woff2') format('woff2'),
-       url('../fonts/roboto-v29-latin-700.woff') format('woff');
+  url('../fonts/roboto-v29-latin-700.woff') format('woff');
 }
 
 
@@ -197,6 +197,7 @@ nav>ul{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 
 .hero-text{
@@ -230,6 +231,9 @@ nav>ul{
 }
 
 .hero-img{
+  position: absolute;
+  top: 40px;
+  right: 0;
   width: 510px;
   height: 510px;
   box-shadow: 24px 24px 0px rgba(255, 117, 0, 0.6);
@@ -306,25 +310,26 @@ nav>ul{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
   background-color: #252420;
   border-radius: 12px;
+  padding: 64px;
 }
 
 .sale-content{
-  padding: 64px;
-  margin-top: 64px;
-  margin-bottom: 64px;
+  width: 440px;
+  padding: 0;
+  margin: 0;
 }
 
 .sale-header{
-  width: 375px;
-  height: 100px;
   font-family: "Roboto Condensed", "Arial" sans-serif;
   font-weight: bold;
   font-size: 40px;
-  line-height: 1.2;
+  line-height: 48px;
   color: #FFFFFF;
   margin: 0;
+  padding: 0;
   margin-bottom: 24px;
 }
 
@@ -346,7 +351,14 @@ nav>ul{
   color: var(--accent-color);
 }
 
+.sale-link{
+ margin-top: 24px;
+}
+
 .sale-img{
+  position: absolute;
+  right: 64px;
+  bottom: 64px;
   border-radius: 21px;
 }
 
